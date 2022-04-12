@@ -1,0 +1,36 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All rights reserved"
+issueTrackerURL="https://github.com/Asecave/Cold-Sweat-Energized/issues"
+
+[[mods]]
+modId="cold_sweat_energized"
+version="${file.jarVersion}"
+displayName="Cold Sweat: Energized"
+logoFile="examplemod.png"
+credits="Momo Studios"
+authors="Asecave"
+description='''
+Adds body temperature related items that work with forge energy and improve the quality of life for the late game.
+'''
+
+[[dependencies.cold_sweat_energized]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.cold_sweat_energized]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.cold_sweat_energized]]
+    modId="cold_sweat"
+    mandatory=true
+    versionRange="[r2.1,)"
+    ordering="NONE"
+    side="BOTH"
