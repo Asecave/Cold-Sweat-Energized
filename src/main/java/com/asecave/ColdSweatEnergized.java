@@ -4,9 +4,9 @@ import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import dev.momostudios.coldsweat.ColdSweat;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
+import net.momostudios.coldsweat.ColdSweat;
 
 @Mod(ColdSweatEnergized.MOD_ID)
 public class ColdSweatEnergized {
