@@ -104,7 +104,7 @@ repositories {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.16.5-36.2.5'
+    minecraft 'net.minecraftforge:forge:1.16.5-36.2.20'
     implementation fg.deobf("curse.maven:coldsweat-506194:3624527")
 }
 
