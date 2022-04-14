@@ -106,6 +106,9 @@ repositories {
 dependencies {
     minecraft 'net.minecraftforge:forge:1.16.5-36.2.20'
     implementation fg.deobf("curse.maven:coldsweat-506194:3624527")
+    runtimeOnly fg.deobf("curse.maven:lollipop-347954:3232534")
+    runtimeOnly fg.deobf("curse.maven:powah-352656:3232535")
+    runtimeOnly fg.deobf("curse.maven:jei-238222:3681294")
 }
 
 jar {
