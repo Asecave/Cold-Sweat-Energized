@@ -3,7 +3,7 @@ package com.asecave.coldsweatenergized;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.asecave.coldsweatenergized.item.Items;
+import com.asecave.coldsweatenergized.common.item.Items;
 
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
